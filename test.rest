@@ -1,0 +1,8 @@
+GET https://codeforces.com/api/user.status?handle=kshitizagarwal&from=1&count=10
+###
+POST https://notaryapp-staging.herokuapp.com/customer/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "demo@thenotary.app"
+}
